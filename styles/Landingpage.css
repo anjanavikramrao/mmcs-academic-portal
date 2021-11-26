@@ -1,0 +1,235 @@
+.Mask {
+  margin: 0px 0 0 0px;
+  padding: 0 0 0 0;
+  background-image: linear-gradient(125deg, #f7b422 1%, #ffd600 63%, #ffe100 91%);
+}
+
+.User2_landing {
+  width: 1440px;
+  height: 4326px;
+  background-color: #fafafc;
+}
+.Bitmap {
+  width: 65px;
+  height: 40px;
+}
+.New-Programmes-offer {
+  margin: 0 39px 8px 0;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #0f3866;
+  padding-top: 300px;
+}
+
+.Choose-from-130000 {
+  margin: 8px 113px 40px 0;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #828894;
+}
+
+.icons8-team-FcLyt7lW5wg-unsplash {
+  width: 403px;
+  height: 556px;
+  margin: 0px 0px 0 125px;
+  object-fit: contain;
+}
+
+.Rectangle {
+  margin: 0px 0 27px 10px;
+  padding: 14px 20px 14px 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 14px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+}
+.Icons-Search {
+  width: 32px;
+  height: 32px;
+  margin: 0 16px 0 0;
+  object-fit: contain;
+}
+.Show-All-Courses {
+  margin: 4px 0 4px 0px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #f7b422;
+  border:none;
+  background-color:white
+}
+.bt_BG {
+  width: 120px;
+  height: 40px;
+  margin: 0 0 0 23px;
+  padding: 10px 44px 11px 45px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border:none;
+  color: #f7b422;
+}
+.Rectangle_search {
+  height: 60px;
+  margin: 0px 0 0 0;
+  padding: 18px 67px 18px 68px;
+  border-radius: 10px;
+  background-color: #f7b422;
+  color: white;
+  border-color: white;
+}
+
+.Top-Selling-Courses {
+    width: 100%;
+    height: 49px;
+    margin: 0 0 8px 0;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #0f3866;
+  }
+  .Search-here-to-choos {
+    margin: 0px 0px 16px 0;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+    color: #828894;
+  }
+  .Rectangle_Topcategories1 {
+    width: 548px;
+    height: 425px;
+    margin: 0 7px 0 0;
+    padding: 16px 16px 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  .Bachelor-of-Technolo {
+    /* width: 345px;
+    height: 32px; */
+    margin: 0 0px 0 0;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #0f3866;
+  }
+  .User2_landing {
+    width: 1440px;
+    height: 4326px;
+    background-color: #fafafc;
+  }
+  .Bitmap {
+    width: 65px;
+    height: 40px;
+    margin: 48px 17px 13px 1px;
+  }
+  .New-Programmes-offer {
+    width: 604px;
+    height: 98px;
+    margin: 0 39px 8px 0;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #0f3866;
+    padding-top: 200px;
+  }
+
+  .Choose-from-130000 {
+    width: 530px;
+    height: 54px;
+    margin: 8px 113px 40px 0;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #828894;
+    Margin-top: 100px;
+  }
+
+  .icons8-team-FcLyt7lW5wg-unsplash {
+    width: 403px;
+    height: 556px;
+    margin: 51px 60px 0 125px;
+    object-fit: contain;
+  }
+
+  .Rectangle {
+    width: 643px;
+    height: 60px;
+    margin: 0 0 27px;
+    padding: 14px 20px 14px 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 14px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    border: none;
+  }
+  .Icons-Search {
+    width: 32px;
+    height: 32px;
+    margin: 0 16px 0 0;
+    object-fit: contain;
+  }
+  .Show-All-Courses {
+    width: 208px;
+    height: 24px;
+    margin: 4px 0 4px 24px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #f7b422;
+    align-items: center;
+  }
+  .bt_BG {
+    width: 120px;
+    height: 40px;
+    margin: 0 0 0 23px;
+    padding: 10px 44px 11px 45px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border:none;
+    color: #f7b422;
+  }
+  .Rectangle_search {
+    width: 192px;
+    height: 60px;
+    margin: 27px 451px 0 0;
+    padding: 18px 67px 18px 68px;
+    border-radius: 10px;
+    background-color: #f7b422;
+    color: white;
+    border-color: white;
+  }

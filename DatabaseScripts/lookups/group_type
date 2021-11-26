@@ -1,0 +1,10 @@
+CREATE TABLE group_type (
+    code text NOT NULL PRIMARY KEY,
+    description text NOT NULL,
+    custom_description text,
+    language text NOT NULL References language (code),
+    created_time timestamp with time zone,
+    created_user text,
+    last_modified_time timestamp with time zone DEFAULT now(),
+    last_modified_user text
+);

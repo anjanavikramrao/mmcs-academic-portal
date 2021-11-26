@@ -1,0 +1,289 @@
+.app-theme-white.app-container {
+  background: #fafafc;
+}
+
+.sv_p_title{
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #085388;
+  
+}
+
+.cardprogram{
+  //width: 1095px;
+  //height: 384px;
+  /* margin: 24px 61px 459px 31px;
+  padding: 23px 33px 40px 24px; */
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.cardsurveyform{
+  margin: 0 0 16px 1px;
+  padding: 2px 15px 19px 10px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.surveyform .form-control {
+  border-radius: 4px;
+  // background-color: #f0f2f5;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  // color: #828894;
+  color: #2c2e30;
+}
+/* .surveyform .form-control:focus {
+  //background-color: #ffffff;
+  border: solid 2px #538dff;
+  margin: 9px 0 0;
+  padding: 14px 16px;
+  border-radius: 4px;
+ 
+} */
+
+.panel-footer.card-footer {
+  padding: none;
+  background-color: white;
+  border-top: 0px;
+}
+
+.surveyheader {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #085388;
+}
+
+.surveycard {
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.surveytitle {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #0a497d;
+  margin: 10px;
+}
+
+/* .sv_main.sv_main.sv_bootstrapmaterial_css .sv_qstn {
+  margin-bottom: 1rem;
+  font-family: NunitoSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #0f3866;
+} */
+.sv_main span {
+  word-break: break-word;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  // color: #828894;
+  color:#474747;
+}
+
+.sv_main .sv-paneldynamic__add-btn {
+  float: right;
+  color: #f7b422;
+  background-color: white;
+  border-radius: 6px;
+  border: solid 1px #f7b422;
+  width: 132px;
+  height: 36px;
+  padding: 6px 12px;
+}
+
+button.button {
+  float: right;
+  color: #f7b422;
+  background-color: white;
+  border-radius: 6px;
+  border: solid 1px #f7b422;
+  width: 132px;
+  height: 36px;
+  padding: 6px 12px;
+}
+
+
+input.button.sv_p_remove_btn {
+  color: red;
+  background-color: white;
+  border-radius: 6px;
+  border: solid 1px red;
+  width: 132px;
+  height: 36px;
+  padding: 6px 12px;
+}
+
+input.btn.sv_edit_btn {
+  width: 127px;
+  height: 38px;
+  background-color: #f9bb19;
+  //float: right;
+  border-radius: 6px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal; /* /node_modules/@fortawesome/free-solid-svg-icons/faAddressBook */
+  color: #0f3866;
+}
+
+input.btn.sv_preview_btn {
+  width: 127px;
+  height: 38px;
+  background-color: #f9bb19;
+  float: right;
+  border-radius: 6px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal; /* /node_modules/@fortawesome/free-solid-svg-icons/faAddressBook */
+  color: #0f3866;
+}
+
+input.btn.sv_complete_btn {
+  width: 127px;
+  height: 38px;
+  /* margin: 40px 851px 0 28px; */
+  /* padding: 8px 25px 8px 24px; */
+  border-radius: 6px;
+  background-color: #f9bb19;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal; /* /node_modules/@fortawesome/free-solid-svg-icons/faAddressBook */
+  color: #0f3866;
+}
+input.btn.sv_next_btn{
+  width: 127px;
+  height: 38px;
+  background-color: #f9bb19;
+  float: right;
+  border-radius: 6px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal; /* /node_modules/@fortawesome/free-solid-svg-icons/faAddressBook */
+  color: #0f3866;
+}
+input.btn.sv_prev_btn{
+  background-color: #f9bb19;
+  width: 127px;
+  height: 38px;
+  border-radius: 6px;
+
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  content: counter(sace);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal; /* /node_modules/@fortawesome/free-solid-svg-icons/faAddressBook */
+  color: #0f3866;
+}
+.sv-btn:active {
+  transform: scale(0.95);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+  background-color: rgb(126, 79, 148) !important;
+}
+
+/* .panel-footer {
+  padding: 0 15px;
+  border: none;
+  text-align: right;
+  background-color: #fff;
+}
+.panelborder {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding: 3px;
+}
+ */
+
+ .svd-designer-container.svd-designer-container--left-side {
+  display: table-cell;
+  vertical-align: top;
+  width: 0%;
+  max-width: 15%;
+  flex-basis: 15%;
+}
+input[type="date"].form-control{
+  //width:350px;
+}
+
+/*input[type="button"].sv_prev_btn {
+  background-color: red;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/16x16-free-toolbar-icons/16/56.png"); 
+    background-repeat: no-repeat; 
+    background-position: 4px 4px;  
+    border: none;          
+    padding-left: 16px;    
+    vertical-align: middle; 
+}
+input[type="button"].sv_next_btn {
+  background-color: green;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/16x16-free-toolbar-icons/16/57.png"); 
+    background-repeat: no-repeat;  /* make the background image appear only once */
+   /* background-position: 80px 4px;  /* equivalent to 'top left' */
+   /* border: none;           /* assuming we don't want any borders */
+    /*padding-left: 16px;     /* make text start to the right of the image */
+    /*vertical-align: middle; /* align the text vertically centered  
+}
+*/  
+
+
+h4.sv_p_title span{
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #0a497d;
+}
+
+

@@ -1,0 +1,174 @@
+{
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "dropdown",
+            "name": "education_group_name",
+            "startWithNewLine": true,
+            "title": "Education Group",
+            "width": "500px",
+            "isRequired": "true",
+            "choices": []
+          },
+          {
+            "type": "dropdown",
+            "name": "belongsto",
+            "startWithNewLine": false,
+            "title": "Is Belongs To?",
+            "isRequired": "true",
+            "width": "500px",
+            "choices": [
+              {
+                "value": "university",
+                "text": "University"
+              },
+              {
+                "value": "institution",
+                "text": "Institution"
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "university_name",
+            "title": "University",
+            "width": "500px",
+            "visible": false,
+            "visibleIf": "{belongsto}='university'",
+            "isRequired": "true",
+            "choices":[]
+          },
+          {
+            "type": "dropdown",
+            "name": "institution_group_name",
+            "title": "Institution",
+            "width": "500px",
+            "visible": false,
+            "visibleIf": "{belongsto}='institution'",
+            "isRequired": "true",
+            "choices":[]
+          },
+          {
+            "type": "text",
+            "name": "department_name",
+            "startWithNewLine": true,
+            "placeHolder": "Placeholder",
+            "title": "Department Name",
+            "width": "500px"
+          },
+          {
+            "type": "text",
+            "name": "abbreviation",
+            "startWithNewLine": false,
+            "placeHolder": "Placeholder",
+            "title": "Department Abbreviation",
+            "width": "500px"
+          },
+          {
+            "type": "text",
+            "name": "department_head",
+            "startWithNewLine": true,
+            "placeHolder": "Placeholder",
+            "title": "Department Head",
+            "width": "500px"
+          },
+          {
+            "type": "dropdown",
+            "name": "department_type",
+            "startWithNewLine": false,
+            "placeHolder": "Placeholder",
+            "title": "Department Type",
+            "width": "500px",
+            "choices": [
+              {
+                "value": "functional",
+                "text": "Functional"
+              },
+              {
+                "value": "non-functional",
+                "text": "Non-Functional"
+              },
+              {
+                "value": "academics",
+                "text": "Academics"
+              }
+            ]
+          },
+          {
+            "type": "paneldynamic",
+            "name": "address",
+            "title": "Address",
+            "keyName": "name",
+            "showQuestionNumbers": "off",
+            "templateTitle": "Address #{panelIndex}",
+            "templateElements": [
+              {
+                "type": "dropdown",
+                "name": "Address Type",
+                "title": "Address Type",
+                "choices": [
+                  {
+                    "value": "College",
+                    "text": "College"
+                  },
+                  {
+                    "value": "Hostel ",
+                    "text": "Hostel "
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "name": "address1",
+                "title": "Address Line 1",
+                "startWithNewLine": false
+              },
+              {
+                "type": "text",
+                "name": "address2",
+                "title": "Address Line 2"
+              },
+              {
+                "type": "text",
+                "name": "address3",
+                "startWithNewLine": false,
+                "title": "Address Line 3"
+              },
+              {
+                "type": "text",
+                "name": "city",
+                "title": "City"
+              },
+              {
+                "type": "text",
+                "name": "state",
+                "startWithNewLine": false,
+                "title": "State / Province / Region"
+              },
+              {
+                "type": "text",
+                "name": "zip",
+                "title": "Zip / Postal Code"
+              },
+              {
+                "type": "dropdown",
+                "name": "country",
+                "startWithNewLine": false,
+                "title": "Country",
+                "choicesByUrl": {
+                  "url": "https://restcountries.eu/rest/v2/all",
+                  "valueName": "name"
+                }
+              }
+            ],
+            "minPanelCount": 1,
+            "panelAddText": "Add More",
+            "panelRemoveText": "Remove address"
+          }
+        ]
+      }
+    ],
+    "showQuestionNumbers": "off"
+  }

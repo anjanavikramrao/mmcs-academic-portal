@@ -1,0 +1,22 @@
+.header {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 56px;
+    position: relative;
+    background-color: #FFFFFF;
+    color: #6B778C;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+}

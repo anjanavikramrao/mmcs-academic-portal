@@ -1,0 +1,148 @@
+{
+  "pages":
+  [
+    {
+       "name": "page1", 
+        "elements": 
+        [          
+          {
+            "type": "panel",
+            "name": "Application",
+            "title": "Application Id",
+                   
+            "elements": 
+            [
+              {
+                "type": "text",
+                "name": "id",
+                "title": "Application Id",
+                "readOnly": true
+              }
+            ],
+            "state": "expanded",
+            "showQuestionNumbers": "off"            
+          },
+          {
+       
+            "type": "panel",
+            "name": "Basic Details",
+        
+            "elements": 
+            [
+              {
+                "type": "text",
+                "name": "id",
+                "title": "Application Id",
+                "visible": true,
+                "isRequired":"true",
+                "readOnly": true
+              },
+       
+              {
+                "type": "text",
+                "name": "full_name",
+                "title": "Applicant Name",
+                "isRequired":"true",
+                "readOnly": true
+              },
+              {
+                "type": "text",
+                "name":"application_date",
+                "title": "Date Of Application",
+                "readOnly": true
+              }  ,
+              {
+                "type": "text",
+                "name": "program",
+                "title": "Program Specialization",
+                "readOnly": true
+              },
+              {
+                "type": "text",
+                "name": "academic_year",
+                "title": "Academic Year",
+                "readOnly": true
+              },
+              {
+                "type": "text",
+                "name": "student_email",
+                "title": "Email",
+                "readOnly": true
+              },
+              {
+                "type": "text",
+                "name": "mobile_number",
+                "title": "Mobile",
+                "readOnly": true
+              },
+              {
+                "type": "text",
+                "name": "nationality",
+                "title": "Nationality",
+                "readOnly": true
+              } ,
+              {
+                "type": "text",
+                "name": "date_of_birth",
+                "title": "Date Of Birth",
+                "readOnly": true
+              }          
+           ],
+            "title": "Basic Details",
+            "state": "collapsed",
+           "indent": 1,
+           "showQuestionNumbers": "off"
+         },
+       {
+         "type": "panel",
+          "name": "Documents",
+          "elements": 
+          [
+            {
+              "type": "text",
+              "name": "uploaded_documents",
+              "title": "Documents"
+            }
+
+          ],
+          "title": "Documents",
+          "state": "collapsed",
+          "showQuestionNumbers": "off"
+       },
+
+        {
+          "type": "panel",
+          "name": "Remarks / Actions",
+          "elements":
+          [
+            {
+              "type": "text",
+              "name": "remarks",
+              "title": "Remarks"             
+            },
+            {
+              "type": "dropdown",
+              "name": "application_status",
+              "renderAs": "select2",
+              "title": "Action",
+              "choices": 
+               [
+                  
+                  {
+                    "value": "stage 1 ",
+                    "text": "stage 1"
+                  }
+                
+               ]
+            }  
+          ],
+            "title": "Action",
+           "state": "collapsed"
+        }
+      ]
+   }
+  ]
+ }
+   
+  
+ 

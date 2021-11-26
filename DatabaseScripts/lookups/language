@@ -1,0 +1,8 @@
+CREATE TABLE language (
+    code text NOT NULL,
+    description text,
+    created_time timestamp with time zone,
+    created_user text,
+    last_modified_time timestamp with time zone DEFAULT now(),
+    last_modified_user text
+);

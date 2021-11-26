@@ -1,0 +1,102 @@
+{
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "dropdown",
+            "name": "university",
+            "title": "University",
+            "width": "550px",
+            "choices": [
+              {
+                "value": "Manipal Academy Of Higher Education",
+                "text": "Manipal Academy Of Higher Education"
+              },
+              {
+                "value": "Manipal University Jaipur",
+                "text": "Manipal University Jaipur"
+              },
+              {
+                "value": "Sikkim Manipal University",
+                "text": "Sikkim Manipal University"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "name": "name",
+            "title": "Calendar Name",
+            "placeHolder": "Placeholder"
+          },
+          {
+            "type": "dropdown",
+            "name": "calendartype",
+            "title": "Calendar Type",
+            "startWithNewLine": false,
+            "choices": [
+              {
+                "value": "Admission Calendar",
+                "text": "Admission Calendar"
+              },
+              {
+                "value": "Academic Calendar ",
+                "text": "Academic Calendar "
+              },
+              {
+                "value": "Holiday Calendar ",
+                "text": "Holiday Calendar "
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "calendaravailablefor",
+            "title": "Calendar Available For",
+            "startWithNewLine": true,
+            "width": "500px",
+            "choices": [
+              {
+                "value": "Staff",
+                "text": "Staff"
+              },
+              {
+                "value": "Public",
+                "text": "Public"
+              },
+              {
+                "value": "Student",
+                "text": "Student"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "calendardeviation",
+            "title": "Calendar Deviation To Be Recorded?",
+            "startWithNewLine": true,
+            "titleLocation": "hidden",
+            "choices": [
+              {
+                "value": "item1",
+                "text": "Calendar Deviation To Be Recorded?"
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "name": "calendardescription",
+            "title": "Calendar Description",
+            "startWithNewLine": true
+          },
+          {
+            "type": "comment",
+            "name": "specialinstructions",
+            "title": "Special Instructions",
+            "startWithNewLine": false
+          }
+        ]
+      }
+    ],
+    "showQuestionNumbers": "off"
+  }

@@ -1,0 +1,67 @@
+{
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "radiogroup",
+            "name": "Payment method",
+            "title": "Payment method ",
+            "titleLocation": "hidden",
+            "description": "Safe money transfer using your bank account. Visa, Maestro, Discover, American Express.\n",
+            "descriptionLocation": "underInput",
+            "hideNumber": true,
+            "choices": [
+              {
+                "value": "item1",
+                "text": "Credit Card"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "name": "Card Number",
+            "title": "CARD NUMBER",
+            "hideNumber": true
+          },
+          {
+            "type": "text",
+            "name": "NAME ON CARD",
+            "title": "NAME ON CARD",
+            "hideNumber": true
+          },
+          {
+            "type": "text",
+            "name": "EXPIRY DATE",
+            "startWithNewLine": false,
+            "indent": -2,
+            "title": "EXPIRY DATE",
+            "hideNumber": true,
+            "inputType": "date"
+          },
+          {
+            "type": "text",
+            "name": "CVV CODE",
+            "startWithNewLine": true,
+            "title": "CVV CODE",
+            "hideNumber": true
+          },
+          {
+            "type": "radiogroup",
+            "name": "PayPal",
+            "title": "PayPal",
+            "titleLocation": "hidden",
+            "description": "You will be redirected to PayPal website to complete your purchase securely.",
+            "descriptionLocation": "underInput",
+            "hideNumber": true,
+            "choices": [
+              {
+                "value": "item1",
+                "text": "PayPal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,34 @@
+{
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "comment",
+            "name": "Billing Address",
+            "title": "Billing Address",
+            "titleLocation": "hidden",
+            "hideNumber": true
+          },
+          {
+            "type": "radiogroup",
+            "name": "Shipping mode",
+            "title": "Shipping Method",
+            "hideNumber": true,
+            "choices": [
+              {
+                "value": "Online",
+                "text": "Online   Free (Course materials would be shared in digital format.)"
+              },
+              {
+                "value": "Physical Books",
+                "text": "Physical Books 800 (Course materials would be shared to your location in hard copies)"
+              }
+            ],
+            "colCount": 2
+          }
+        ]
+      }
+    ],
+    "showQuestionNumbers": "off"
+  }

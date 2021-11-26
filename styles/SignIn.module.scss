@@ -1,0 +1,16 @@
+.loginContainer {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    .card {
+        text-align: center;
+        width: 450px;
+        padding: 0.5rem 2.5rem 2.5rem 2.5rem;
+        box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+        background: white;
+        form {
+            text-align: left;
+        }
+    }
+}

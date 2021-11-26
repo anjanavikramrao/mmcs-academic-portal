@@ -1,0 +1,7 @@
+CREATE TABLE country(
+    code text NOT NULL,
+    id integer NOT NULL,
+    iso2_code character(2) NOT NULL,
+    iso3_code character(3) NOT NULL,
+    name character varying(100) NOT NULL
+);

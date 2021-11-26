@@ -1,0 +1,10 @@
+CREATE TABLE currency(
+    code text NOT NULL,
+    description text,
+    custom_description text,
+    lang_descriptions jsonb,
+    created_time timestamp with time zone,
+    created_user text,
+    last_modified_time timestamp with time zone DEFAULT now(),
+    last_modified_user text
+);

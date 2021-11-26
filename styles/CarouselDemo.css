@@ -1,0 +1,85 @@
+.carousel-demo .product-item .product-item-content {
+    border: 1px solid var(--surface-d);
+    border-radius: 3px;
+    margin: .3rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.carousel-demo .product-item .product-image {
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.Continue_Shopping {
+    width: auto;
+    height: auto;
+    margin: 10px 0 0 0;
+    padding: 18px 59px 19px 60px;
+    border-radius: 3px;
+    box-shadow: 0 2px 7px 0 rgba(120, 137, 149, 0.26);
+    background-color: #f7b422;
+  }
+  .Continue-to-Shipping {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0d4071;
+  }
+  .Label {
+    margin: 0 0 9px;
+    padding: 30px 0px 15px 0px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #828894;
+  }
+  .Back-to-Customer-Inf {
+    margin: 1 0 0 10px;
+    padding: 50px 0 0 0;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #788995;
+    background-color: white;
+    border: none;
+  }
+  .AdressplaceHolder {
+    margin: 0 0 0 10px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #788995;
+    background-color: white;
+    border: none;
+  }
+  .Edit-Address {
+      color: #f7b422;
+    margin: 11px 8px 0 0;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #f7b422;
+    border: none;
+  }
+
+  

@@ -1,0 +1,178 @@
+.font-icon-wrapper {
+    text-align: center;
+     border:none;
+     border-radius: 0; 
+     margin: 0; 
+    padding: 6px;
+}
+
+.paragraphinfo{
+    margin-top: -10px;
+    font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0a497d;
+}
+
+.infospan{
+    opacity: 0.5;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #474747;
+}
+.infoheading{
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #0a497d;
+}
+
+.infocard{
+    width: 330px;
+    height: 166px;
+    margin: 0 24px 0 0;
+    padding: 15px 16px 12px;
+    border-radius: 10px;
+    border: solid 1px #edf0f6;
+}
+.cardinfotabs{
+    width: 330px;
+  height: 102px;
+  margin: 0 24px 0 0;
+  padding: 15px 16px 17px;
+  border-radius: 10px;
+  border: solid 1px #edf0f6;
+
+}
+.cardsubtitleinfo{
+    // width: 97px;
+    height: 22px;
+    // margin: 0 141px 8px 0;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #0a497d;
+}
+.inforcardtitle{
+    font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #0a497d;
+}
+.infocardbody{
+  margin: -20px 0 0 -18px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #828894;
+}
+.tabcard{
+    // width: 1095px;
+  height: 64px;
+//   margin: 32px 63px 24px 29px;
+//   padding: 16px 24px 0 0;
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 0 #d0d5d9;
+  background-color: #fff;
+
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #1770dd;
+}
+.tabbody{
+    // width: 1095px;
+    height: 511px;
+    // margin: 24px 63px 53px 29px;
+    // padding: 32px 379px 377px 32px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.cardradio{
+    font-family: LatotoSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #0f3866;
+}
+
+.widget-heading{
+    font-family: Lato;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #828894;
+}
+
+.widget-subheading{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #0f3866;
+}
+
+/* .widget-content.widget-content-left.widget-subheading {
+     opacity:none!important;
+}
+
+.widget-content .widget-content-left .widget-heading {
+    // opacity: 1;
+font-weight: normal; 
+} */
+
+.imagelogo{
+    width: 110px;
+    height: 110px;
+    margin: 0 32px 2px 0;
+    // border: solid 1px #1770dd;
+    border-radius: 50px;
+}
+
+.University-list-Ma {
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #f8bc26;
+  }

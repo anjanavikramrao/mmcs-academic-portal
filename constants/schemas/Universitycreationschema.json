@@ -1,0 +1,674 @@
+{
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "panel",
+        "name": "Basic Details",
+        "elements": [
+         {
+          "type": "dropdown",
+          "name": "education_group",
+          "title": "Education Group",
+          "renderAs":"select2",
+          "choices": []
+         },
+         {
+          "type": "text",
+          "name": "name",
+          "startWithNewLine": false,
+          "title": "University Name"
+         },
+         {
+          "type": "text",
+          "name": "abbreviation",
+          "startWithNewLine": false,
+          "title": "Abrreviation"
+         },
+         {
+          "type": "dropdown",
+          "name": "universitytype",
+          "title": "University Type",
+          "renderAs": "select2",
+          "choicesByUrl": {
+            "url": "https://awzskdvknmpuuhxditwu.supabase.co/rest/v1/university_type?select=*",
+            "valueName": "code",
+            "titleName": "code"
+           }
+         },
+         {
+          "type": "text",
+          "name": "website",
+          "startWithNewLine": false,
+          "title": "Website URL"
+         },
+         {
+          "type": "dropdown",
+          "name": "currency",
+          "renderAs": "select2",
+          "title": "Currency",
+          "startWithNewLine": false,
+          "choices": [
+           {
+            "value": "INR",
+            "text": "INR"
+           },
+           {
+            "value": "USD",
+            "text": "USD"
+           },
+           {
+            "value": "EURO",
+            "text": "EURO"
+           }
+          ]
+         }
+        ],
+        "title": "Basic Details",
+        "state": "expanded",
+        "indent": 1,
+        "showQuestionNumbers": "off"
+       },
+       {
+        "type": "panel",
+        "name": "mou_details",
+        "elements": [
+         {
+          "type": "text",
+          "name": "mou_signed_organisation",
+          "title": "Organisation with which MoU is signed"
+         },
+         {
+          "type": "dropdown",
+          "name": "organisation_type",
+          "startWithNewLine": false,
+          "title": "Organisation Type",
+          "renderAs": "select2",
+          "choices": [
+           {
+            "value": "Institution",
+            "text": "Institution"
+           },
+           {
+            "value": "Industry",
+            "text": "Industry"
+           },
+           {
+            "value": "Corporate House",
+            "text": "Corporate House"
+           },
+           {
+            "value": "Foreign College",
+            "text": "Foreign College"
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "name": "mou_execution_date",
+          "startWithNewLine": false,
+          "title": "MOU Execution Date",
+          "inputType": "date"
+         },
+         {
+          "type": "text",
+          "name": "general_terms",
+          "title": "General Terms"
+         },
+         {
+          "type": "text",
+          "name": "mou_objective",
+          "startWithNewLine": false,
+          "title": "Objective Of MOU"
+         },
+         {
+          "type": "text",
+          "name": "duration",
+          "startWithNewLine": false,
+          "title": "Duration",
+          "inputType": "number"
+         },
+         {
+          "type": "comment",
+          "name": "mou_actual_activities_yearwise",
+          "title": "List the  actual  activities under each MOU year wise"
+         },
+         {
+          "type": "text",
+          "name": "mou_participated_students_teachers_number",
+          "startWithNewLine": false,
+          "title": "Number of students/teachers participated under MoUs",
+          "inputType": "number"
+         },
+         {
+          "type": "file",
+          "name": "attachment",
+          "startWithNewLine": false,
+          "title": "Attachment",
+          "maxSize": 0
+         }
+        ],
+        "title": "MOU Details",
+        "state": "collapsed",
+        "showQuestionNumbers": "off"
+       },
+       {
+        "type": "panel",
+        "name": "Accreditation Info",
+        "elements": [
+         {
+          "type": "text",
+          "name": "establishment_year",
+          "title": "Year of Establishment ",
+          "inputType": "date"
+         },
+         {
+          "type": "text",
+          "name": "university_recognized_by_ugc_year",
+          "startWithNewLine": false,
+          "title": "Year in which the University got recognized by UGC ",
+          "description": "(Under Section 2f/ Under  Section 12B/ Under Section 3) ",
+          "inputType": "date"
+         },
+         {
+          "type": "radiogroup",
+          "name": "university_recognized_by_ugc_as_a_university_with_potential_for",
+          "title": "Has the University been recognized by UGC as a University with Potential for Excellence(UPE)",
+          "choices": [
+           {
+            "value": "Yes",
+            "text": "Yes"
+           },
+           {
+            "value": "No",
+            "text": "No"
+           }
+          ],
+          "colCount": 2
+         },
+         {
+          "type": "text",
+          "name": "university_with_potential_for_excellence_recognition_year",
+          "visibleIf": "{university_recognized_by_ugc_as_a_university_with_potential_for} = 'Yes'",
+          "startWithNewLine": false,
+          "title": "Year of Recognition",
+          "inputType": "date"
+         },
+         {
+          "type": "radiogroup",
+          "name": "has_any_division_of_the_university_been_recognized_by_ugc_as_a_",
+          "title": "Has any division of the University been recognized by UGC as a Centre with potential for excellence in particular area(CPEPA)",
+          "choices": [
+           {
+            "value": "Yes",
+            "text": "Yes"
+           },
+           {
+            "value": "No",
+            "text": "No"
+           }
+          ],
+          "colCount": 2
+         },
+         {
+          "type": "text",
+          "name": "centre_with_potential_for_excellence_in_particular_area_recogni",
+          "visibleIf": "{has_any_division_of_the_university_been_recognized_by_ugc_as_a_} = 'Yes'",
+          "startWithNewLine": false,
+          "title": "Year of Recognition",
+          "inputType": "date"
+         },
+         {
+          "type": "radiogroup",
+          "name": "university_recognized_by_mhrd_as_ioe",
+          "title": "Has the University been recognized by MHRD as IOE",
+          "choices": [
+           {
+            "value": "Yes",
+            "text": "Yes"
+           },
+           {
+            "value": "No",
+            "text": "No"
+           }
+          ],
+          "colCount": 2
+         },
+         {
+          "type": "text",
+          "name": "university_recognized_by_mhrd_as_ioe_year",
+          "visibleIf": "{university_recognized_by_mhrd_as_ioe} = 'Yes'",
+          "startWithNewLine": false,
+          "title": "Year of Recognition",
+          "inputType": "date"
+         },
+         {
+          "type": "dropdown",
+          "name": "university_status",
+          "title": "Status of the University",
+          "renderAs": "select2",
+          "choices": [
+           {
+            "value": "Active",
+            "text": "Active"
+           },
+           {
+            "value": "Inactive",
+            "text": "Inactive"
+           },
+           {
+            "value": "Closed",
+            "text": "Closed"
+           }
+          ]
+         },
+         {
+          "type": "dropdown",
+          "name": "type_of_university_based_on_flagship_programme",
+          "startWithNewLine": false,
+          "title": "Type of University based on Flagship Programme",
+          "renderAs": "select2",
+          "choices": [
+           {
+            "value": "Multi-Disciplinary",
+            "text": "Multi-Disciplinary"
+           },
+           {
+            "value": "Technical",
+            "text": "Technical"
+           },
+           {
+            "value": "Medical",
+            "text": "Medical"
+           },
+           {
+            "value": "Law",
+            "text": "Law"
+           },
+           {
+            "value": "Others",
+            "text": "Others"
+           }
+          ]
+         }
+        ],
+        "title": "Accreditation Info",
+        "state": "collapsed",
+        "showQuestionNumbers": "off"
+       },
+       {
+        "type": "panel",
+        "name": "key_people",
+        "elements": [
+         {
+          "type": "matrixdynamic",
+          "name": "key_people",
+          "titleLocation": "hidden",
+          "removeRowText": " Remove",
+          "columns": [
+            {
+              "name": "role",
+              "title": "Role",
+              "cellType": "dropdown",
+              "renderAs": "select2",
+              "choices": [
+                {
+                  "value": "Chairman",
+                  "text": "Chairman"
+                 },
+                 {
+                  "value": "Treasures",
+                  "text": "Treasures"
+                 },
+                 {
+                  "value": "President",
+                  "text": "President"
+                 },
+                 {
+                  "value": "Secretery",
+                  "text": "Secretery"
+                 }
+              ]
+             },
+           {
+            "name": "title",
+            "title": "Title",
+            "cellType": "dropdown",
+            "renderAs": "select2",
+            "choices": [
+             {
+              "value": "Mr",
+              "text": "Mr"
+             },
+             {
+              "value": "Ms",
+              "text": "Ms"
+             },
+             {
+              "value": "Mrs",
+              "text": "Mrs"
+             },
+             {
+              "value": "Prof",
+              "text": "Prof"
+             },
+             {
+              "value": "Dr",
+              "text": "Dr"
+             }
+            ]
+           },
+           {
+            "name": "staffname",
+            "title": "Name",
+            "cellType": "text"
+           },
+           {
+            "cellType": "checkbox",
+            "name": "istrustee",
+            "startWithNewLine": false,
+            "title": ".",
+            "hideNumber": true,
+            "width": "200px",
+            "choices": [
+             {
+              "value": "istrustee",
+              "text": "Is Trustee?"
+             }
+            ]
+           },
+           {
+            "name": "email",
+            "title": "Email Address",
+            "cellType": "text",
+            "inputType": "email",
+            "validators": [
+              {
+               "type": "email"
+              }
+             ]
+           },
+           {
+            "name": "contactnumber",
+            "title": "Contact Number",
+            "cellType": "text"
+           }
+          ],
+          
+          "rowCount": 1,
+          "minRowCount": 1,
+          "confirmDelete": true,
+          "confirmDeleteText": "Delete",
+          "addRowLocation": "bottom",
+          "addRowText": "Add More"
+         }
+        ],
+        "title": "Key People",
+        "state": "collapsed",
+        "showQuestionNumbers": "off"
+       }
+       
+      ]
+     },
+     {
+      "name": "page2",
+      "elements": [
+       {
+        "type": "panel",
+        "name": "Infrastructure Details",
+        "elements": [
+         {
+          "type": "text",
+          "name": "total_area",
+          "title": "Total Area"
+         },
+         {
+          "type": "text",
+          "name": "total_constructed_area",
+          "startWithNewLine": false,
+          "title": "Total Constructed area"
+         },
+         {
+          "type": "text",
+          "name": "typeofuniversity_universitylevelinstitution",
+          "title": "Type of University/University level Institution"
+         },
+         {
+          "type": "radiogroup",
+          "name": "is_a_specialized_university",
+          "startWithNewLine": false,
+          "title": "Is a Specialized University?",
+          "choices": [
+           {
+            "value": "Yes",
+            "text": "Yes"
+           },
+           {
+            "value": "No",
+            "text": "No"
+           }
+          ],
+          "colCount": 2
+         },
+         {
+          "type": "comment",
+          "name": "details_of_specialized_university",
+          "visibleIf": "{is_a_specialized_university} = 'Yes'",
+          "title": "Details of Specialized University"
+         }
+        ],
+        "title": "Infrastructure Details",
+        "state": "expanded",
+        "showQuestionNumbers": "off"
+       },
+       {
+        "type": "panel",
+        "name": "List of constituent Institutions/Schools",
+        "elements": [
+         {
+          "type": "matrixdynamic",
+          "name": "list_of_departments",
+          "state": "expanded",
+          "title": "List Of Departments",
+          "hideNumber": true,
+          "columns": [
+           {
+            "name": "Column 1"
+           },
+           {
+            "name": "Column 2"
+           },
+           {
+            "name": "Column 3"
+           }
+          ],
+          "choices": [
+           1,
+           2,
+           3,
+           4,
+           5
+          ],
+          "cellType": "text",
+          "columnColCount": 2,
+          "rowCount": 1
+         },
+         {
+          "type": "matrixdynamic",
+          "name": "list_of_centres",
+          "state": "collapsed",
+          "title": "List of Centres",
+          "hideNumber": true,
+          "columns": [
+           {
+            "name": "Column 1"
+           },
+           {
+            "name": "Column 2"
+           },
+           {
+            "name": "Column 3"
+           }
+          ],
+          "choices": [
+           1,
+           2,
+           3,
+           4,
+           5
+          ],
+          "cellType": "text",
+          "rowCount": 1
+         },
+         {
+          "type": "matrixdynamic",
+          "name": "list_of_research_centres",
+          "state": "collapsed",
+          "title": "List of Research Centres ",
+          "hideNumber": true,
+          "columns": [
+           {
+            "name": "Column 1"
+           },
+           {
+            "name": "Column 2"
+           },
+           {
+            "name": "Column 3"
+           }
+          ],
+          "choices": [
+           1,
+           2,
+           3,
+           4,
+           5
+          ],
+          "cellType": "text",
+          "rowCount": 1
+         }
+        ],
+        "title": "List of constituent Institutions/Schools",
+        "state": "collapsed"
+       },
+       {
+        "type": "panel",
+        "name": "Area of land proposed to be acquired or to be taken on lease",
+        "elements": [
+         {
+          "type": "text",
+          "name": "title_of_land",
+          "title": "Title of Land"
+         },
+         {
+          "type": "dropdown",
+          "name": "type_of_hold",
+          "startWithNewLine": false,
+          "title": "Type of Hold (Freehold / Lease Hold)",
+          "choices": [
+           {
+            "value": "Freehold",
+            "text": "Freehold"
+           },
+           {
+            "value": "Lease Hold",
+            "text": "Lease Hold"
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "name": "number_of_building_blocks_complex",
+          "state": "collapsed",
+          "startWithNewLine": false,
+          "title": "Number of Building /Blocks/complex",
+          "inputType": "number"
+         }
+        ],
+        "title": "Area of land proposed to be acquired or to be taken on lease",
+        "state": "collapsed",
+        "showQuestionNumbers": "off"
+       },
+       {
+        "type": "panel",
+        "name": "address",
+        "elements": [
+         {
+          "type": "paneldynamic",
+  
+          "name": "address",
+          "state": "expanded",
+          "title": "Address",
+          "templateElements": [
+           {
+            "type": "dropdown",
+            "name": "addresstype",
+            "title": "Address Type",
+            "renderAs": "select2",
+            "choicesByUrl": {
+              "url": "https://awzskdvknmpuuhxditwu.supabase.co/rest/v1/address_type?select=*",
+              "valueName": "code",
+              "titleName": "code"
+             }
+           },
+           {
+            "type": "text",
+            "name": "contactperson",
+            "startWithNewLine": false,
+            "title": "Contact Person"
+           },
+           {
+            "type": "text",
+            "name": "address1",
+            "startWithNewLine": true,
+            "title": "Address Line 1"
+           },
+           {
+            "type": "text",
+            "name": "address2",
+            "startWithNewLine": false,
+            "title": "Address Line 2"
+           },
+           {
+            "type": "text",
+            "name": "address3",
+            "startWithNewLine": false,
+            "title": "Address Line 3"
+           },
+           {
+            "type": "text",
+            "name": "state",
+            "startWithNewLine": true,
+            "title": "State / Province / Region"
+           },
+           {
+            "type": "text",
+            "name": "city",
+            "startWithNewLine": false,
+            "title": "City"
+           },
+           {
+            "type": "text",
+            "name": "zip",
+            "startWithNewLine": false,
+            "title": "Zip / Postal Code"
+           }
+           
+          ],
+          "templateTitle": "Address #{panelIndex}",
+          "panelCount": 1,
+          "minPanelCount": 1,
+          "keyName": "name",
+          "panelAddText": "Add More",
+          "panelRemoveText": "Remove"
+         }
+        ],
+        "showQuestionNumbers": "off",
+        "title": "Address",
+        "state": "collapsed"
+       }
+      ]
+     }
+    ]
+   }

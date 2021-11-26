@@ -1,0 +1,28 @@
+{
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "dropdown",
+        "name": "university"
+       },
+       {
+        "type": "dropdown",
+        "name": "institution_group",
+        "title": "Institution Group"
+       },
+       {
+        "type": "dropdown",
+        "name": "program",
+        "title": "Program"
+       },
+       {
+        "type": "dropdown",
+        "name": "session",
+        "title": "Session"
+       }
+      ]
+     }
+    ]
+   }

@@ -1,0 +1,303 @@
+.datatable-crud-demo .table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafafc;
+}
+
+.datatablecard{  
+padding: 60px 16px 16px 25px;
+border-radius: 20px;
+background-color: #ffffff;
+}
+
+#tool{
+  background-color: #fafafc;
+  border: none;
+}
+.app-main__inner{
+  background-color: #fafafc;
+}
+.p-datatable-thead{
+  height: 40px;
+  margin: 25px 72px 22px 0;
+  padding: 11px 3px 12px 25px;
+  border: solid 1px #f9f9f9;
+  background-color: #fcfcfd;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0a497d;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+text-align: left;
+padding: 1rem 1rem;
+border: 1px solid #e9ecef;
+border-width: 0 0 1px 0;
+font-weight: 600;
+background: #f8f9fa;
+transition: box-shadow 0.2s;
+color:currentColor ;
+font-family: Lato;
+font-size: 14px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+}
+
+.lefttoolbartext{
+font-family: Lato;
+font-size: 24px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+color: #0f3866;
+}
+
+#exportbut{
+font-family: Lato;
+font-size: 14px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #f9bb19;
+border-radius: 6px;
+border: solid 1px #f9bb19;
+}
+
+#createbut{
+font-family: Lato;
+font-size: 14px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #0f3866;
+border-radius: 6px;
+border: solid 1px #f9bb19;
+}
+
+.p-datatable-tbody{
+font-family: Lato;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #808080;
+}
+.p-sidebar{
+background: #ffffff;
+color: #495057;
+padding: 1rem;
+border: 0 none;
+box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+}
+.p-sidebar.p-component.p-sidebar-right.p-sidebar-active.p-sidebar-enter-done{
+
+top: 60px;
+width:22rem;
+}
+.p-sidebar-right {
+top: 0;
+right: 0;
+width: 30rem;
+height: 100%;
+border-radius: 20px;
+box-shadow: -9px 0 20px 0 rgba(0, 0, 0, 0.05);
+background-color: #ffffff;
+}
+.app-theme-white.app-container {
+  background:#fafafc;
+}
+
+/* TabViewDemo.css */
+
+.tabview-demo .tabview-custom i, .tabview-demo .tabview-custom span {
+  vertical-align: middle;
+}
+
+.tabview-demo .tabview-custom span {
+  margin: 0 .5rem;
+}
+
+.tabview-demo .p-button {
+  margin-right: .25rem;
+}
+
+.tabview-demo .p-tabview p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+#customdropdown{
+  top: -50px;
+  margin-left: -500px;
+  width: 15rem;
+   position: absolute;
+}
+
+#customheaderdrop{
+  top: -42px;
+  margin-left: -700px;
+  position: absolute;
+  font-family: Lato;
+// font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+// color: #0a497d;
+// color: #808080;
+}
+
+#customdropdowncat{
+  top: -50px;
+  margin-left: 500px;
+  width: 15rem;
+   position: absolute;
+}
+
+#customheaderdropcat{
+  top: -42px;
+  margin-left: 335px;
+  position: absolute;
+  font-family: Lato;
+// font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+// color: #0a497d;
+// color: #808080;
+}
+
+.customer-badge {
+  border-radius: 2px;
+  padding: .25em .5rem;
+  text-transform: none;
+  // font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  // color: #808080;
+}
+
+.customer-badge.status-Draft {
+
+   color: #2854ce;
+}
+
+.customer-badge.status-Active {
+  
+  color: #256029;
+}
+
+.customer-badge.status-Sentback {
+  color: #ce1f1f;
+}
+.customer-badge.status-Pendingapproval {
+  color: #dbcc47;
+}
+.datatable-crud-demo .table-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafc;
+}
+/* 
+div.p-component-overlay{
+   position: relative; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+
+.options {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option {
+  margin-top: 10px;
+}
+
+
+.dx-row.dx-column-lines.dx-header-row{
+  border: solid 1px #f9f9f9;
+  background-color: #fcfcfd;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0d4071;
+}
+.dx-datagrid-rowsview .dx-row.dx-group-row:not(.dx-row-focused).dx-row.dx-column-lines.dx-group-row{
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0f3866;
+}
+
+.dx-row.dx-data-row.dx-column-lines{
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #808080;
+}
+
+#calendarcard{
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.paragraphdescription{
+  width: 1029px;
+  // height: 54px;
+  // margin: 8px 10px 0 0;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8b8b8b;
+
+}

@@ -1,0 +1,121 @@
+.educartcontainer{
+  width: 947px;
+  height: 210px;
+  margin: 0 7px 0 0;
+  padding: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.coursecard {
+  width: 982px;
+  height: 216px;
+  margin: 0 7px 0 0;
+  padding: 16px 24px 16px 16px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.card-header, .card-title {
+  text-transform: none;
+  
+}
+.coursecardtitle{
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #0f3866; 
+}
+.coursecardsubtitle{
+    /* width: 134px;
+  height: 20px;
+  margin: 32px 548px 8px 0; */
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.1;
+  letter-spacing: normal;
+  color: #1770dd;
+}
+.card {
+   box-shadow:none ;
+   border-width: 0; 
+}
+.coursecardcontent{
+  width: 682px;
+  height: 65px;
+  margin: 8px 0 0;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #828894;
+}
+.coursecardimg{
+    width: 184px;
+    height: 184px;
+    border-radius: 10px;
+    float: left;
+    object-fit: cover;
+}
+.educartcardfooter{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.educartcardfooter li{
+  padding: 5px;
+}
+.educartcardfooter h1{
+  height: 20px;
+  margin: 0 0 2px;
+  opacity: 0.7;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #828894;
+}
+.educartcardfooter h2{
+  height: 20px;
+  margin: 1px 40px 0 0;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #1770dd;
+}
+.applybutton{  
+  border-radius: 6px;
+  background-color: #f7b422;
+  font-family: Lato;
+  border-color: #f7b422;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0d4071;  
+}
+.cardbadge{
+    font-weight: none; 
+   text-transform: none; 
+    padding: 5px 10px;
+    min-width: 19px;
+    float: right ;
+}

@@ -1,0 +1,178 @@
+{
+    "title": "Form2 School Of Design",
+    "pages": [
+     {
+      "name": "Personal Details",
+      "elements": [
+       {
+        "type": "panel",
+        "name": "panel1",
+        "elements": [
+         {
+          "type": "text",
+          "name": "Firstname",
+          "title": "First Name"
+         },
+         {
+          "type": "text",
+          "name": "Middlename",
+          "startWithNewLine": false,
+          "title": "Middle Name"
+         },
+         {
+          "type": "text",
+          "name": "Lastname",
+          "startWithNewLine": false,
+          "title": "Last Name"
+         },
+         {
+          "type": "text",
+          "name": "Mobilenumber",
+          "title": "Mobile Number"
+         },
+         {
+          "type": "text",
+          "name": "Email",
+          "startWithNewLine": false,
+          "title": "Email",
+          "inputType": "email"
+         },
+         {
+          "type": "dropdown",
+          "name": "Gender",
+          "startWithNewLine": false,
+          "title": "Gender",
+          "choices": [
+           "item1",
+           "item2",
+           "item3"
+          ],
+          "optionsCaption": "Choose Gender"
+         },
+         {
+          "type": "text",
+          "name": "Dateofbirth",
+          "startWithNewLine": false,
+          "title": "Date Of Birth",
+          "inputType": "date"
+         },
+         {
+          "type": "text",
+          "name": "Nationality",
+          "title": "Nationality"
+         },
+         {
+          "type": "text",
+          "name": "Placeofbirth",
+          "startWithNewLine": false,
+          "title": "Place Of Birth"
+         },
+         {
+          "type": "text",
+          "name": "Placeofresidence",
+          "startWithNewLine": false,
+          "title": "Place Of Residence"
+         },
+         {
+          "type": "panel",
+          "name": "passportdetails",
+          "elements": [
+           {
+            "type": "text",
+            "name": "passportnumber",
+            "startWithNewLine": false,
+            "title": "Passport Number"
+           },
+           {
+            "type": "dropdown",
+            "name": "country",
+            "startWithNewLine": false,
+            "title": "Country",
+            "choices": [
+             "item1",
+             "item2",
+             "item3"
+            ],
+            "optionsCaption": "Choose Country"
+           },
+           {
+            "type": "dropdown",
+            "name": "Placeofissue",
+            "title": "Place Of Issue",
+            "choices": [
+             "item1",
+             "item2",
+             "item3"
+            ]
+           },
+           {
+            "type": "text",
+            "name": "Dateofissue",
+            "startWithNewLine": false,
+            "title": "Date Of Issue",
+            "inputType": "date"
+           },
+           {
+            "type": "text",
+            "name": "Dateofexpire",
+            "startWithNewLine": false,
+            "title": "Date Of Expire",
+            "inputType": "date"
+           }
+          ],
+          "title": "Passport Details"
+         }
+        ],
+        "title": "Personal Details"
+       },
+       {
+        "type": "panel",
+        "name": "languages",
+        "elements": [
+         {
+          "type": "matrixdynamic",
+          "name": "question1",
+          "title": "Language Details",
+          "columns": [
+           {
+            "name": "Column 1"
+           },
+           {
+            "name": "Column 2"
+           },
+           {
+            "name": "Column 3"
+           }
+          ],
+          "choices": [
+           1,
+           2,
+           3,
+           4,
+           5
+          ]
+         }
+        ],
+        "title": "Languages"
+       }
+      ]
+     },
+     {
+      "name": "Program And Academic Details",
+      "navigationTitle": "Program And Academic Details"
+     },
+     {
+      "name": "External Exam"
+     },
+     {
+      "name": "Diversity and Special Needs"
+     },
+     {
+      "name": "Upload and Declaration"
+     }
+    ],
+    "showQuestionNumbers": "off",
+    "showProgressBar": "top",
+    "progressBarType": "buttons",
+    "showPreviewBeforeComplete": "showAllQuestions"
+   }

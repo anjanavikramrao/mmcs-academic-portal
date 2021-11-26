@@ -1,0 +1,166 @@
+{
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "dropdown",
+            "name": "grouptype",
+            "startWithNewLine": true,
+            "title": "Education Group",
+            "width": "500px",
+            "isRequired": "true",
+            "choices": []
+          },
+          {
+            "type": "dropdown",
+            "name": "university",
+            "startWithNewLine": false,
+            "title": "University",
+            "width": "500px",
+            "isRequired": "true",
+            "choices": []
+          },
+          {
+            "type": "text",
+            "name": "institutiongroup_name",
+            "startWithNewLine": true,
+            "placeHolder": "Placeholder",
+            "title": "Institution Group Name",
+            "width": "500px"
+          },
+          {
+            "type": "dropdown",
+            "name": "country_registered",
+            "startWithNewLine": false,
+            "title": "Country Registered",
+            "width": "500px",
+            "choices": [
+              {
+                "value": "India",
+                "text": "India"
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "group_type",
+            "title": "Institution Group Type",
+            "width": "500px",
+            "startWithNewLine": true,
+            "choices": [
+              {
+                "value": "Cluster",
+                "text": "Cluster"
+              },
+              {
+                "value": "Partner",
+                "text": "Partner"
+              },
+              {
+                "value": "Group Of Campuses",
+                "text": "Group Of Campuses"
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "currency",
+            "title": "Currency",
+            "startWithNewLine": false,
+            "width": "500px",
+            "choices": [
+              {
+                "value": "INR",
+                "text": "INR"
+              },
+              {
+                "value": "USD ",
+                "text": "USD "
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "name": "sequenceno",
+            "startWithNewLine": true,
+            "placeHolder": "Placeholder",
+            "title": "Sequence Number",
+            "width": "500px"
+          },
+          {
+            "type": "paneldynamic",
+            "name": "address",
+            "title": "Address",
+            "keyName": "name",
+            "showQuestionNumbers": "off",
+            "templateTitle": "Address #{panelIndex}",
+            "templateElements": [
+              {
+                "type": "dropdown",
+                "name": "Address Type",
+                "title": "Address Type",
+                "choices": [
+                  {
+                    "value": "College",
+                    "text": "College"
+                  },
+                  {
+                    "value": "Hostel ",
+                    "text": "Hostel "
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "name": "address1",
+                "title": "Address Line 1",
+                "startWithNewLine": false
+              },
+              {
+                "type": "text",
+                "name": "address2",
+                "title": "Address Line 2"
+              },
+              {
+                "type": "text",
+                "name": "address3",
+                "startWithNewLine": false,
+                "title": "Address Line 3"
+              },
+              {
+                "type": "text",
+                "name": "city",
+                "title": "City"
+              },
+              {
+                "type": "text",
+                "name": "state",
+                "startWithNewLine": false,
+                "title": "State / Province / Region"
+              },
+              {
+                "type": "text",
+                "name": "zip",
+                "title": "Zip / Postal Code"
+              },
+              {
+                "type": "dropdown",
+                "name": "country",
+                "startWithNewLine": false,
+                "title": "Country",
+                "choicesByUrl": {
+                  "url": "https://restcountries.eu/rest/v2/all",
+                  "valueName": "name"
+                }
+              }
+            ],
+            "minPanelCount": 1,
+            "panelAddText": "Add More",
+            "panelRemoveText": "Remove address"
+          }
+        ]
+      }
+    ],
+    "showQuestionNumbers": "off"
+  }

@@ -1,0 +1,161 @@
+{
+    "pages": [
+      {
+        "name": "Event",
+        "elements": [
+          {
+            "type": "dropdown",
+            "name": "eventgroup_id",
+            "title": "Event Group",
+            "hideNumber": true,
+            "choicesByUrl": {
+              "url": "https://jyqfgrbqtrnhnmpzbnfx.supabase.co/rest/v1/event_group?select=*",
+              "valueName": "eventgroup_name",
+              "titleName": "id"
+            }
+          },
+          {
+            "type": "text",
+            "name": "order",
+            "startWithNewLine": false,
+            "title": "Order",
+            "hideNumber": true
+          },
+          {
+            "type": "text",
+            "name": "event_name",
+            "startWithNewLine": false,
+            "title": "Event Name",
+            "hideNumber": true
+          },
+          {
+            "type": "comment",
+            "name": "description",
+            "title": "Description",
+            "hideNumber": true,
+            "startWithNewLine": true
+          },
+          {
+            "type": "dropdown",
+            "name": "referenceevent",
+            "title": "Reference Event",
+            "hideNumber": true,
+            "startWithNewLine": true,
+            "choicesByUrl": {
+              "url": "https://jyqfgrbqtrnhnmpzbnfx.supabase.co/rest/v1/events",
+              "valueName": "event_name",
+              "titleName": "id"
+            }
+          },
+          {
+            "type": "dropdown",
+            "name": "referencepoint",
+            "startWithNewLine": false,
+            "title": "Reference Point",
+            "hideNumber": true,
+            "choices": [
+              {
+                "value": "End Date",
+                "text": "End Date"
+              },
+              {
+                "value": "Start Date",
+                "text": "Start Date"
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "referencepointdate",
+            "title": "Reference Point Date",
+            "hideNumber": true,
+            "visibleIf": "{referencepoint}='Start Date'",
+            "choicesByUrl": {
+              "url": "https://jyqfgrbqtrnhnmpzbnfx.supabase.co/rest/v1/events?select=fromdate",
+              "valueName": "fromdate",
+              "titleName": "fromdate"
+            }
+          },
+          {
+            "type": "dropdown",
+            "name": "referencepointdate",
+            "title": "Reference Point Date",
+            "hideNumber": true,
+            "visibleIf": "{referencepoint}='End Date'",
+            "choicesByUrl": {
+              "url": "https://jyqfgrbqtrnhnmpzbnfx.supabase.co/rest/v1/events?select=todate",
+              "valueName": "todate",
+              "titleName": "todate"
+            }
+          },
+          {
+            "type": "text",
+            "name": "offsetdays",
+            "title": "Offset days",
+            "hideNumber": true,
+            "inputType": "number",
+            "startWithNewLine": true
+          },
+          {
+            "type": "dropdown",
+            "name": "unit",
+            "startWithNewLine": false,
+            "title": "Unit",
+            "hideNumber": true,
+            "choices": [
+              {
+                "value": "Days",
+                "text": "Days"
+              },
+              {
+                "value": "Week",
+                "text": "Week"
+              },
+              {
+                "value": "Months",
+                "text": "Months"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "name": "eventduration",
+            "title": "Event Duration (in days)",
+            "hideNumber": true,
+            "inputType": "number",
+            "startWithNewLine": true
+          },
+          {
+            "type": "checkbox",
+            "name": "workingdays",
+            "startWithNewLine": false,
+            "title": ".",
+            "titleLocation": "top",
+            "hideNumber": true,
+            "choices": [
+              {
+                "value": "Take only working days",
+                "text": "Take only working days"
+              }
+            ]
+          },
+          {
+            "name": "fromdate",
+            "type": "expression",
+            "expression": "addDate({referencepoint}, {offsetdays},{unit})",
+            "startWithNewLine": true,
+            "title": "From Date",
+            "hideNumber": true
+          },
+          {
+            "name": "todate",
+            "type": "expression",
+            "expression": "addMonths({fromdate}, {eventduration})",
+            "startWithNewLine": false,
+            "title": "To Date",
+            "hideNumber": true
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,422 @@
+{
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "panel",
+            "name": "Basic Details",
+            "elements": [
+              {
+                "type": "dropdown",
+                "name": "educationgroup_name",
+                "width": "500px",
+                "minWidth": "500px",
+                "maxWidth": "500px",
+                "title": "Education Group",
+                "choices":[]
+              },
+              {
+                "type": "dropdown",
+                "name": "belongsto",
+                "width": "500px",
+                "minWidth": "500px",
+                "maxWidth": "500px",
+                "startWithNewLine": false,
+                "title": "Is Belongs To?",
+                "isRequired": true,
+                "choices": [
+                  {
+                    "value": "university",
+                    "text": "University"
+                  },
+                  {
+                    "value": "institutiongroup",
+                    "text": "Institution Group"
+                  }
+                ]
+              },
+              {
+                "type": "dropdown",
+                "name": "university",
+                "visible": false,
+                "visibleIf": "{belongsto}='university'",
+                "title": "University",
+                "width": "500px",
+                "minWidth": "500px",
+                "maxWidth": "500px",
+                "choices":[]
+              },
+              {
+                "type": "dropdown",
+                "name": "institutiongroup",
+                "visible": false,
+                "visibleIf": "{belongsto}='institutiongroup'",
+                "width": "500px",
+                "minWidth": "500px",
+                "maxWidth": "500px",
+                "title": "Institution Group",
+                "choices":[]
+              },
+              {
+                "type": "text",
+                "name": "institution_name",
+                "startWithNewLine": true,
+                "title": "Institute Name",
+                "placeHolder": "Placeholder"
+              },
+              {
+                "type": "dropdown",
+                "name": "institutiontype",
+                "startWithNewLine": false,
+                "title": "Institute Type",
+                "choices": [
+                  {
+                    "value": "university",
+                    "text": "university"
+                  },
+                  {
+                    "value": "deemedtobe",
+                    "text": "Deemedtobe"
+                  },
+                  {
+                    "value": "constituentcollege",
+                    "text": "Cnstituent College"
+                  }
+                ]
+              },
+              {
+                "type": "dropdown",
+                "name": "Parent Institution",
+                "title": "Parent Institution",
+                "startWithNewLine": false,
+                "choices": [
+                  {
+                    "value": "Group 1",
+                    "text": "Group 1"
+                  },
+                  {
+                    "value": "Group 2",
+                    "text": "Group 2"
+                  },
+                  {
+                    "value": "Group 3",
+                    "text": "Group 3"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "name": "Company Code",
+                "startWithNewLine": false,
+                "title": "Company Code",
+                "placeHolder": "Placeholder"
+              },
+              {
+                "type": "text",
+                "name": "Business Area",
+                "title": "Business Area",
+                "placeHolder": "Placeholder",
+                "startWithNewLine": false
+              },
+              {
+                "type": "text",
+                "name": "Parent Flag",
+                "startWithNewLine": false,
+                "title": "Parent Flag",
+                "placeHolder": "Placeholder"
+              },
+              {
+                "type": "text",
+                "name": "holidaycalendar",
+                "startWithNewLine": false,
+                "title": "Holiday Calendar",
+                "inputType": "date"
+              },
+              {
+                "type": "text",
+                "name": "academiccalendar",
+                "width": "350px",
+                "minWidth": "350px",
+                "maxWidth": "350px",
+                "title": "Academic Calendar",
+                "inputType": "date"
+              },
+              {
+                "type": "text",
+                "name": "Institution Head",
+                "title": "Institution Head"
+              },
+              {
+                "type": "text",
+                "name": "email",
+                "startWithNewLine": false,
+                "title": "Email",
+                "validators": [
+                  {
+                    "type": "email"
+                  }
+                ],
+                "inputType": "email"
+              },
+              {
+                "type": "text",
+                "name": "Date Established",
+                "startWithNewLine": false,
+                "title": "Date Established",
+                "inputType": "date"
+              }
+            ],
+            "title": "Basic Details",
+            "state": "expanded",
+            "indent": 1,
+            "showQuestionNumbers": "off"
+          },
+          {
+            "type": "panel",
+            "name": "panel1",
+            "elements": [
+              {
+                "type": "dropdown",
+                "name": "select Entity",
+                "startWithNewLine": true,
+                "title": "Eligible To Offer",
+                "choices": [
+                  {
+                    "value": "Institution",
+                    "text": "Institution"
+                  },
+                  {
+                    "value": "University",
+                    "text": "University"
+                  }
+                ]
+              },
+              {
+                "type": "dropdown",
+                "name": "select Entity",
+                "startWithNewLine": false,
+                "title": "Select The Entity",
+                "choices": [
+                  {
+                    "value": "Institution",
+                    "text": "Institution"
+                  },
+                  {
+                    "value": "University",
+                    "text": "University"
+                  }
+                ]
+              },
+              {
+                "type": "dropdown",
+                "name": "question2",
+                "startWithNewLine": false,
+                "title": "Start year",
+                "choices": [
+                  {
+                    "value": "Institution",
+                    "text": "Institution"
+                  },
+                  {
+                    "value": "Industry",
+                    "text": "Industry"
+                  },
+                  {
+                    "value": "VTU",
+                    "text": "VTU"
+                  }
+                ]
+              }
+            ],
+            "title": "Eligibilty",
+            "state": "collapsed",
+            "showQuestionNumbers": "off"
+          }
+        ]
+      },
+      {
+        "name": "page2",
+        "elements": [
+          {
+            "type": "panel",
+            "name": "panel2",
+            "elements": [
+              {
+                "type": "text",
+                "name": "question3",
+                "title": "Local and / or Remote access to library resources (Specify) "
+              },
+              {
+                "type": "dropdown",
+                "name": "question4",
+                "startWithNewLine": false,
+                "title": "Library Resources",
+                "choices": [
+                  {
+                    "value": "Books",
+                    "text": "Books"
+                  },
+                  {
+                    "value": "Journal",
+                    "text": "Journal"
+                  },
+                  {
+                    "value": "e-books",
+                    "text": "e-books"
+                  }
+                ]
+              }
+            ],
+            "title": "Library Resources",
+            "state": "expanded",
+            "showQuestionNumbers": "off"
+          },
+          {
+            "type": "panel",
+            "name": "panel4",
+            "elements": [
+              {
+                "type": "text",
+                "name": "question6",
+                "title": "Number of classrooms"
+              },
+              {
+                "type": "text",
+                "name": "question6",
+                "title": "Campus Area",
+                "startWithNewLine": false
+              },
+              {
+                "type": "dropdown",
+                "name": "question7",
+                "startWithNewLine": true,
+                "title": "University Type",
+                "choices": [
+                  {
+                    "value": "Institution",
+                    "text": "Institution"
+                  },
+                  {
+                    "value": "Industry",
+                    "text": "Industry"
+                  },
+                  {
+                    "value": "VTU",
+                    "text": "VTU"
+                  }
+                ]
+              }
+            ],
+            "title": "Infrastructure Physical",
+            "state": "collapsed",
+            "showQuestionNumbers": "off"
+          },
+          {
+            "type": "panel",
+            "name": "panel5",
+            "elements": [
+              {
+                "type": "dropdown",
+                "name": "Accreditation info",
+                "title": "Accreditation info",
+                "choices": [
+                  "item1",
+                  "item2",
+                  "item3"
+                ]
+              },
+              {
+                "type": "text",
+                "name": "Validity",
+                "startWithNewLine": false,
+                "title": "Validity",
+                "inputType": "date"
+              },
+              {
+                "type": "text",
+                "name": "Status",
+                "startWithNewLine": false,
+                "title": "Status"
+              }
+            ],
+            "title": "Accrediation Information",
+            "state": "collapsed",
+            "showQuestionNumbers": "off"
+          },
+          {
+            "type": "panel",
+            "name": "panel3",
+            "elements": [
+              {
+                "type": "paneldynamic",
+                "name": "question5",
+                "state": "expanded",
+                "title": "Address",
+                "templateElements": [
+                  {
+                    "type": "dropdown",
+                    "name": "addresstype",
+                    "title": "Address Type",
+                    "choices": [
+                      {
+                        "value": "College",
+                        "text": "College"
+                      },
+                      {
+                        "value": "Hostel ",
+                        "text": "Hostel "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "name": "address1",
+                    "startWithNewLine": false,
+                    "title": "Address Line 1"
+                  },
+                  {
+                    "type": "text",
+                    "name": "address2",
+                    "title": "Address Line 2"
+                  },
+                  {
+                    "type": "text",
+                    "name": "address3",
+                    "startWithNewLine": false,
+                    "title": "Address Line 3"
+                  },
+                  {
+                    "type": "text",
+                    "name": "state",
+                    "title": "State / Province / Region"
+                  },
+                  {
+                    "type": "text",
+                    "name": "city",
+                    "startWithNewLine": false,
+                    "title": "City"
+                  },
+                  {
+                    "type": "text",
+                    "name": "zip",
+                    "startWithNewLine": false,
+                    "title": "Zip / Postal Code"
+                  }
+                ],
+                "templateTitle": "Address #{panelIndex}",
+                "panelCount": 1,
+                "minPanelCount": 1,
+                "keyName": "name",
+                "panelAddText": "Add More",
+                "panelRemoveText": "Remove address"
+              }
+            ],
+            "title": "Address",
+            "state": "collapsed",
+            "showQuestionNumbers": "off"
+          }
+        ]
+      }
+    ]
+  }

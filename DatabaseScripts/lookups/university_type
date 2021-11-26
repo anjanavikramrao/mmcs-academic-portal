@@ -1,0 +1,10 @@
+CREATE TABLE university_type (
+    code text NOT NULL PRIMARY KEY,
+    description text NOT NULL,
+    custom_description text,
+    lang_descriptions jsonb,
+    created_time timestamp with time zone,
+    created_user text,
+    last_modified_time timestamp with time zone DEFAULT now(),
+    last_modified_user text
+);

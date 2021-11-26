@@ -1,0 +1,9 @@
+CREATE TABLE company(
+    code text NOT NULL,
+    description text,
+    lang_descriptions jsonb,
+    created_time timestamp with time zone,
+    created_user text,
+    last_modified_time timestamp with time zone DEFAULT now(),
+    last_modified_user text
+);
